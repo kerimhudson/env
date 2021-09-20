@@ -1,11 +1,13 @@
 {
   "name": "@kerimhudson/env",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
   "source": "src/index.js",
-  "types": "dist/index.d.ts",
-  "main": "dist/env.cjs",
-  "module": "dist/env.js",
+  "types": "./dist/index.d.ts",
+  "main": "./dist/env.cjs",
+  "exports": "./dist/env.modern.js",
+  "unpkg": "./dist/env.umd.js",
+  "module": "./dist/env.module.js",
   "author": {
     "name": "Kerim Hudson",
     "email": "code@kerim.sh",
